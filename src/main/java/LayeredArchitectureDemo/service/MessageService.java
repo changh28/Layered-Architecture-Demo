@@ -1,6 +1,7 @@
 package LayeredArchitectureDemo.service;
 
 import LayeredArchitectureDemo.entity.Message;
+import LayeredArchitectureDemo.exception.ErrorMessage;
 import LayeredArchitectureDemo.exception.MessageException;
 import LayeredArchitectureDemo.registry.MessageLib;
 import LayeredArchitectureDemo.exception.ErrorMessage.builder;
