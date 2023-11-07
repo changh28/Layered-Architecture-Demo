@@ -3,6 +3,9 @@
 
 This is a sample application aiming to demonstrate multilayer interactions in Java programming. It maintains a list of dummy messages subsequent to every external request. Each message is categorized by a unique ID as a reference for users to retrieve one or multiple messages.
 
+### System Architecture
+![system_diagram.jpg](system_diagram.jpg)
+
 ### Prerequisites
 - JDK 1.8
 - Maven 3.6.x or above
