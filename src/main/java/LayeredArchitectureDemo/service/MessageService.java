@@ -53,7 +53,6 @@ public class MessageService {
                 .error("Message #" + id + " does not exist")
                 .build());
         }
-        Message message = new Message(message);
         LOG.debug("Requested: Message #{}", message);
         return message;
     }
